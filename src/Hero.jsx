@@ -9,7 +9,7 @@ function Hero() {
       <h1 className="md:text-[4rem] text-4xl mx-5 font-extrabold pb-5 md:w-5xl font-Outfit">
         Telling Our Stories. Shaping Our Future.
       </h1>
-      <p className="md:text-2xl text-[1.5rem] mx-3 md:w-5xl leading-[2] opacity-75">
+      <p className="md:text-2xl text-[1.3rem] mx-3 md:w-5xl leading-[1.5] opacity-75">
         From the heart of our communities to the eyes of the world, we bring you
         stories that honor our heritage, confront our challenges, and celebrate
         our triumphs.{" "}

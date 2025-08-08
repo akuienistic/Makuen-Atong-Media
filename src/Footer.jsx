@@ -84,13 +84,13 @@ function Footer() {
         <hr className="border-gray-700 my-8" />
         <div className="text-center text-md">
           <p>
-            &copy; {new Date().getFullYear()} Makuen Atong - Nyin Wong Media —
+            &copy; {new Date().getFullYear()} Nyin Wong Media —
             All rights reserved. Designed & Built by{" "}
             <a
               href="https://www.linkedin.com/in/simon-akuien-atem-710895290/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white 400 hover:underline"
+              className="text-blue-700 font-bold"
             >
               {"</ Simon Akuien Atem >"}
             </a>
