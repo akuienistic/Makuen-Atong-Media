@@ -117,15 +117,14 @@ function Navbar() {
             <PhoneIcon className="h-5 w-5 inline-block mr-1" />
             Contact Us
           </NavLink>
-          <button
-            to="/book"
-            className="text-center rounded-full mb-3 w-max bg-white text-slate-900 px-4 py-2 hover:cursor-pointer hover:bg-slate-200 transition-all duration-300 ease-in-out"
-          >
-            Book service Now{" "}
-            <span>
-              <ArrowRightIcon className="h-5 w-5 inline-block" />
-            </span>
-          </button>
+          <NavLink to="/booking">
+            <button className="text-center rounded-full mb-3 w-max bg-white text-slate-900 px-4 py-2 hover:cursor-pointer hover:bg-slate-200 transition-all duration-300 ease-in-out">
+              Book service Now{" "}
+              <span>
+                <ArrowRightIcon className="h-5 w-5 inline-block" />
+              </span>
+            </button>
+          </NavLink>
         </div>
       </div>
     </header>
