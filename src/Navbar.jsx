@@ -37,12 +37,6 @@ function Navbar() {
             </span>
             Home
           </NavLink>
-          <NavLink to="/about" className={navItemClasses} onClick={closeMenu}>
-            <span>
-              <UserGroupIcon className="h-5 w-5 inline-block mr-1 " />
-            </span>
-            About Us
-          </NavLink>
           <NavLink
             to="/what-we-do"
             className={navItemClasses}
@@ -52,6 +46,12 @@ function Navbar() {
               <BriefcaseIcon className="h-5 w-5 inline-block mr-1" />
             </span>
             What We Do
+          </NavLink>
+          <NavLink to="/about" className={navItemClasses} onClick={closeMenu}>
+            <span>
+              <UserGroupIcon className="h-5 w-5 inline-block mr-1 " />
+            </span>
+            About Us
           </NavLink>
           <NavLink to="/contact" className={navItemClasses} onClick={closeMenu}>
             <span>
@@ -101,10 +101,6 @@ function Navbar() {
             <HomeIcon className="h-5 w-5 inline-block mr-1" />
             Home
           </NavLink>
-          <NavLink to="/about" className={navItemClasses} onClick={closeMenu}>
-            <UserGroupIcon className="h-5 w-5 inline-block mr-1" />
-            About Us
-          </NavLink>
           <NavLink
             to="/what-we-do"
             className={navItemClasses}
@@ -112,6 +108,10 @@ function Navbar() {
           >
             <BriefcaseIcon className="h-5 w-5 inline-block mr-1" />
             What We Do
+          </NavLink>
+          <NavLink to="/about" className={navItemClasses} onClick={closeMenu}>
+            <UserGroupIcon className="h-5 w-5 inline-block mr-1" />
+            About Us
           </NavLink>
           <NavLink to="/contact" className={navItemClasses} onClick={closeMenu}>
             <PhoneIcon className="h-5 w-5 inline-block mr-1" />
